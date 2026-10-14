@@ -1,7 +1,12 @@
 {
   "name": "noticias-poli",
   "version": "1.0.0",
-  "scripts": { "ng": "ng", "start": "ng serve", "build": "ng build" },
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "deploy": "powershell -ExecutionPolicy Bypass -File ./deploy.ps1"
+  },
   "private": true,
   "dependencies": {
     "@angular/common": "^18.2.0",
